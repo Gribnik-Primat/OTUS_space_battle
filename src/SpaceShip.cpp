@@ -70,3 +70,13 @@ void Spaceship::setAngularVelocity(double newAngularVelocity) {
 void Spaceship::rotateByAngularVelocity() {
     rotate(static_cast<int>(angularVelocity));
 }
+
+double Spaceship::getFuelLevel() const
+{
+    return mFuelLevel;
+}
+
+void Spaceship::setFuelLevel(double fuelLevel)
+{
+    mFuelLevel = fuelLevel;
+}
