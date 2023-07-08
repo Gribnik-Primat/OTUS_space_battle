@@ -17,6 +17,7 @@ set(TEST_SOURCES
     src/CheckFuelCommandTest.cpp
     src/MacroCommandTest.cpp
     src/RotateVelocityCommandTest.cpp
+    src/IoCTest.cpp
 )
 
 # Include directories
