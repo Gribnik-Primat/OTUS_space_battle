@@ -7,11 +7,16 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 # Add source files
 set(SOURCES
     src/SpaceShip.cpp
+    src/SpaceShip.h
 )
 
 # Add test files
 set(TEST_SOURCES
     src/SpaceBattleTest.cpp
+    src/BurnFuelCommandTest.cpp
+    src/CheckFuelCommandTest.cpp
+    src/MacroCommandTest.cpp
+    src/RotateVelocityCommandTest.cpp
 )
 
 # Include directories
